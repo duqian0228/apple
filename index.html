@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>栅格系统</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+<div class="bg active">
+    <div class="zhezhao"></div>
+    <div class="header">
+        <div class="header-inner">
+            <ul class="nav-small">
+                <li>
+                    <div class="nav-left">
+                        <div class="xian xian-top"></div>
+                        <div class="xian xian-bottom"></div>
+                    </div>
+                </li>
+                <li><img src="images/logo_small.svg" alt=""></li>
+                <li><img src="images/bag_small.svg" alt=""></li>
+            </ul>
+            <div class="xiala-list">
+                <ul class="xiala-list-item">
+                    <div class="list-hover"><li class="Mac hover"></li></div>
+                    <div class="list-hover"><li class="iPad hover"></li></div>
+                    <div class="list-hover"><li class="iPhone hover"></li></div>
+                    <div class="list-hover"><li class="Watch hover"></li></div>
+                    <div class="list-hover"><li class="TV hover"></li></div>
+                    <div class="list-hover"><li class="Music hover"></li></div>
+                    <div class="list-hover"><li class="Support hover"></li></div>
+                    <div>
+                        <li class="search input-click" >
+                        <input type="text" class="xiala-search" readonly value="Search apple.com">
+                        <!--<div class="input-show">-->
+                        <!--<p>Quick Links</p>-->
+                        <!--<ul class="input-show-list">-->
+                        <!--<li>Find a Store</li>-->
+                        <!--<li>Accessories</li>-->
+                        <!--<li>iPod</li>-->
+                        <!--<li>iOS</li>-->
+                        <!--<li>Gift Cards</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        </li>
+                    </div>
+                </ul>
+
+
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="" class="logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="Mac menu"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="iPad menu"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="iPhone menu"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="Watch menu"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="TV menu"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="Music menu"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="support-big menu"></a>
+                </li>
+                <li class="nav-item" onclick="this.parentElement.parentElement.parentElement.classList.add('searching')">
+                    <a href="javascript:;" class="search menu"></a>
+                </li>
+                <li class="nav-item"  onclick="this.parentElement.parentElement.parentElement.classList.remove('searching')">
+                    <a href="javascript:;" class="bag"></a>
+                </li>
+            </ul>
+            <div class="header-search">
+                <div class="search-box">
+                    <div class="search-top">
+                        <button><img src="images/search-box.svg" alt=""></button>
+                        <input type="text" id="search-text" value="Search apple.com">
+                    </div>
+                    <div class="search-box-inner">
+                        <span>Quick Links</span>
+                        <ul class="search-box-list">
+                            <li class="search-item">
+                                <a href="">Find a Store</a>
+                            </li>
+                            <li class="search-item">
+                                <a href="">Accessories</a>
+                            </li>
+                            <li class="search-item">
+                                <a href="">iPod</a>
+                            </li>
+                            <li class="search-item">
+                                <a href="">iOS</a>
+                            </li>
+                            <li class="search-item">
+                                <a href="">Gift Cards</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousal">
+        <div class="gallery-slide-wrapper">
+            <a href="" class="iphone active"></a>
+            <a href="" class="airpods"></a>
+            <a href="" class="watch"></a>
+            <a href="" class="event"></a>
+        </div>
+        <div class="tab">
+            <ul class="tab-list">
+                <li class="dot active"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+            </ul>
+        </div>
+        <div class="btn btn-left">
+            <div class="button btnLeft"><</div>
+        </div>
+        <div class="btn btn-right">
+            <div class="button btnRight">></div>
+        </div>
+    </div>
+    <ul class="list row">
+        <li class="ios col d-3 m-6 s-12"></li>
+        <li class="music col d-3 m-6 s-12"></li>
+        <li class="watchos col d-3 m-6 s-12"></li>
+        <li class="iphone_upgrade col d-3 m-6 s-12"></li>
+    </ul>
+    <div class="bottom">
+        <div class="bottom-box">
+            <div class="bottom-box-list">
+                <ul class="bottom-list-item">
+                    <p>Shop and Learn</p>
+                    <li><a href="">Mac</a></li>
+                    <li><a href="">iPad</a></li>
+                    <li><a href="">iPhone</a></li>
+                    <li><a href="">Watch</a></li>
+                    <li><a href="">TV</a></li>
+                    <li><a href="">Music</a></li>
+                    <li><a href="">iTunes</a></li>
+                    <li><a href="">iPod</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="bottom-box-list">
+                <ul class="bottom-list-item">
+                    <p>Apple Store</p>
+                    <li><a href="">Find a Store</a></li>
+                    <li><a href="">Genius Bar</a></li>
+                    <li><a href="">Workshops and Learning</a></li>
+                    <li><a href="">Youth Programs</a></li>
+                    <li><a href="">Apple Store App</a></li>
+                    <li><a href="">Refurbished</a></li>
+                    <li><a href="">Financing</a></li>
+                    <li><a href="">Reuse and Recycling</a></li>
+                    <li><a href="">Order Status</a></li>
+                    <li><a href="">Shopping Help</a></li>
+                </ul>
+            </div>
+            <div class="bottom-box-list">
+                <ul class="bottom-list-item">
+                    <p>For Education</p>
+                    <li><a href="">Apple and Education</a></li>
+                    <li><a href="">Shop for College</a></li>
+                </ul>
+                <ul class="bottom-list-item">
+                    <p>For Business</p>
+                    <li><a href="">Apple and Business</a></li>
+                    <li><a href="">Shop for Business</a></li>
+                </ul>
+            </div>
+            <div class="bottom-box-list">
+                <ul class="bottom-list-item">
+                    <p>Account</p>
+                    <li><a href="">Manage Your Apple ID</a></li>
+                    <li><a href="">Apple Store Account</a></li>
+                    <li><a href="">iCloud.com</a></li>
+                </ul>
+                <ul class="bottom-list-item">
+                    <p>Apple Values</p>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Environment</a></li>
+                    <li><a href="">inclusion and Diversity</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Supplier Responsibility</a></li>
+                </ul>
+            </div>
+            <div class="bottom-box-list">
+                <ul class="bottom-list-item">
+                    <p>About Apple</p>
+                    <li><a href="">Apple Info</a></li>
+                    <li><a href="">Newsroom</a></li>
+                    <li><a href="">Job Opportunities</a></li>
+                    <li><a href="">Press Info</a></li>
+                    <li><a href="">Investors</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Contact Apple</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="bottom-small">
+            <li class="list-click click">
+                <h3>Shop and Learn</h3>
+                <ul class="bottom-xiala-list">
+                    <li><a href="javascript:;">Mac</a></li>
+                    <li><a href="javascript:;">iPad</a></li>
+                    <li><a href="javascript:;">iPhone</a></li>
+                    <li><a href="javascript:;">Watch</a></li>
+                    <li><a href="javascript:;">TV</a></li>
+                    <li><a href="javascript:;">Music</a></li>
+                    <li><a href="javascript:;">iTunes</a></li>
+                    <li><a href="javascript:;">iPod</a></li>
+                    <li><a href="javascript:;">Accessories</a></li>
+                    <li><a href="javascript:;">Gift Cards</a></li>
+                </ul>
+            </li>
+            <li class="list-click click">
+                <h3>Apple Store</h3>
+                <ul class="bottom-xiala-list">
+                    <li><a href="javascript:;">Find a Store</a></li>
+                    <li><a href="javascript:;">Genius Bar</a></li>
+                    <li><a href="javascript:;">Workshops and Learning</a></li>
+                    <li><a href="javascript:;">Youth Programs</a></li>
+                    <li><a href="javascript:;">Apple Store App</a></li>
+                    <li><a href="javascript:;">Refurbished</a></li>
+                    <li><a href="javascript:;">Financing</a></li>
+                    <li><a href="javascript:;">Reuse and Recycling</a></li>
+                    <li><a href="javascript:;">Order Status</a></li>
+                    <li><a href="javascript:;">Shopping Help</a></li>
+                </ul>
+            </li>
+            <li class="list-click click">
+                <h3>For Education</h3>
+                <ul class="bottom-xiala-list">
+                    <li><a href="javascript:;">Apple and Education</a></li>
+                    <li><a href="javascript:;">Shop for College</a></li>
+
+                </ul>
+            </li>
+            <li class="list-click click">
+                <h3>For Business</h3>
+                <ul class="bottom-xiala-list">
+                    <li><a href="javascript:;">Apple and Business</a></li>
+                    <li><a href="javascript:;">Shop for Business</a></li>
+
+                </ul>
+            </li>
+            <li class="list-click click">
+                <h3>Account</h3>
+                <ul class="bottom-xiala-list">
+                    <li><a href="javascript:;">Manage Your Apple ID</a></li>
+                    <li><a href="javascript:;">Apple Store Account</a></li>
+                    <li><a href="javascript:;">iCloud.com</a></li>
+                </ul>
+            </li>
+            <li class="list-click click">
+                <h3>Apple Values</h3>
+                <ul class="bottom-xiala-list">
+                    <li><a href="javascript:;">Accessibility</a></li>
+                    <li><a href="javascript:;">Education</a></li>
+                    <li><a href="javascript:;">Environment</a></li>
+                    <li><a href="javascript:;">Inclusion and Diversity</a></li>
+                    <li><a href="javascript:;">Privacy</a></li>
+                    <li><a href="javascript:;">Supplier Responsibility</a></li>
+
+                </ul>
+            </li>
+            <li class="list-click click">
+                <h3>About Apple</h3>
+                <ul class="bottom-xiala-list">
+                    <li><a href="javascript:;">Apple Info</a></li>
+                    <li><a href="javascript:;">Newsroom</a></li>
+                    <li><a href="javascript:;">Job Opportunities</a></li>
+                    <li><a href="javascript:;">Press Info</a></li>
+                    <li><a href="javascript:;">Investors</a></li>
+                    <li><a href="javascript:;">Events</a></li>
+                    <li><a href="javascript:;">Contact Apple</a></li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <div class="footer">
+            <div class="footer-top">More ways to shop: Visit an <a href="">Apple Store</a>, call 1-800-MY-APPLE, or <a
+                    href="">find a reseller</a>.
+                <div class="flag">
+                    <img src="images/16.png" alt="">
+                    <a href="" class="flag-link">United State</a>
+                </div>
+            </div>
+            <div class="footer-top">
+                Copyright © 2016 Apple Inc. All rights reserved.
+                <br/>
+                <a href="" class="footer-as a-first">Privacy Policy</a><span>|</span>
+                <a href="" class="footer-as">Terms Policy</a><span>|</span>
+                <a href="" class="footer-as">Sales and Refunds</a><span>|</span>
+                <a href="" class="footer-as">Legal</a><span>|</span>
+                <a href="" class="footer-as">Site Map</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
